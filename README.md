@@ -17,7 +17,9 @@ Após clonar o repositório, é necessário instalar as dependências:
 
 `npm install`
 
-Após isso, rodar o comando: `json-server --watch rest-api/events.json`
+Após isso, iniciar o json-server executando o comando:
+
+`json-server --watch rest-api/events.json`
 
 Isso irá disponibilizar uma api REST rodando no endereço http://localhost:3000/events.
 
@@ -28,4 +30,5 @@ Em seguida, rodar o comando: `npm start` em outro terminal (Caso solicitado, dig
 
 * FullCalendar como a base da agenda
 * Axios para requisições à API REST
+
 Obs: Para facilitar os testes, as datas dos eventos no arquivo .json foram acrescidas em 1 ano para serem mais facilmente encontradas partindo da data atual (janeiro/2021). 
