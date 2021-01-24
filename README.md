@@ -13,11 +13,11 @@ Criar uma Agenda de Eventos e apresentar os dados contidos no arquivo events.jso
 
 ## Como executar:
 
-Após clonar o repositório, é necessário instalar as dependências:
+Após clonar o repositório, é necessário instalar as dependências. A partir da pasta front-end do projeto, execute:
 
 `npm install`
 
-Após isso, iniciar o json-server executando o comando:
+Após isso, para iniciar o json-server, execute o seguinte comando a partir da pasta raiz do projeto:
 
 `json-server --watch rest-api/events.json`
 
